@@ -1,11 +1,9 @@
+import Homepage from './pages/homepage/homepage.component';
 
-import './App.css';
 
 function App() {
   return (
-    <div>
-      Hello ARK
-    </div>
+    <Homepage></Homepage>
   );
 }
 
