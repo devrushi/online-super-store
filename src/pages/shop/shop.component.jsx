@@ -11,7 +11,6 @@ class Shop extends Component{
     render(){
         const {products} = this.state; 
         return( <div>
-            <h1>SHOP PAGE</h1>
             {
                  products.map(({id,...otherproducts}) => (
                     <PreviewProduct key={id}{...otherproducts}/>
